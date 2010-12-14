@@ -1,0 +1,11 @@
+project-name: bdParse
+repository:   /home/rcgill/fossils/bdParse.fossil
+local-root:   /usr/home/rcgill/git-mirrors/bdParse/work/
+project-code: d22b878a7e3d06fd46ea0c49598d791cfd7dffbf
+server-code:  b943405516af31403cc26bb9b6219a96d3d9f1f6
+checkout:     f4906d042420b5ff6ffa3abfb2512c33e7490313 2010-12-14 05:40:47 UTC
+parent:       064c79451204f68f35430455e20936c9754e2a72 2010-12-14 02:22:03 UTC
+child:        2c36282ce57661b7eba4f7adc976c7add328a9da 2010-12-16 06:38:59 UTC
+tags:         trunk
+comment:      initial port from the backdraft lisp JavaScript parser (user:
+              rcgill)
