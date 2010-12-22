@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>bdParse Test Harness</title>
+    <script>
+      var require= {
+        baseUrl: "./",
+        urlMap: [
+          function(name) {
+            if (name=="./text.js") {
+              return "../../dojo-v2x/lib/plugins/text.js";
+            }
+            return 0;
+          }
+        ],
+        packages: [{
+          name:"bd",
+          location:"../../backdraft"
+        },{
+          name:"bdParse",
+          location:"..",
+          urlMap:[
+            [/\/lib\/test\//, "/test/"]
+          ]
+        },{
+          name:"dijit",
+          location:"../../dijit-v2x"
+        },{
+          name:"dojo",
+          location:"../../dojo-v2x"
+        }],
+        main:"bdParse/test/driver",
+      };
+    </script>
+    <script src="../../bdLoad/lib/require.js"></script>
+  </head>
+  <body class="tundra">
+    <h1>Status</h1>
+    <p id="status">todo</p>
+    <h1>Result</h1>
+    <p id="result"></p>
+  </body>
+</html>
