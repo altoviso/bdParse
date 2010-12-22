@@ -3,8 +3,8 @@ repository:   /home/rcgill/fossils/bdParse.fossil
 local-root:   /usr/home/rcgill/git-mirrors/bdParse/work/
 project-code: d22b878a7e3d06fd46ea0c49598d791cfd7dffbf
 server-code:  b943405516af31403cc26bb9b6219a96d3d9f1f6
-checkout:     8a9d07d48eb81705cb6f25e450711ea2edf865cc 2010-12-22 02:06:15 UTC
-parent:       6cfa445f90b78e9eb1a94b21316b8c196f043cbd 2010-12-22 02:03:55 UTC
-child:        90882bf223df7024214298ad274db8923b26d168 2010-12-22 10:05:39 UTC
+checkout:     90882bf223df7024214298ad274db8923b26d168 2010-12-22 10:05:39 UTC
+parent:       8a9d07d48eb81705cb6f25e450711ea2edf865cc 2010-12-22 02:06:15 UTC
+child:        df150785836c0ea022e28225f46c7fb07f7ad737 2010-12-30 09:57:12 UTC
 tags:         trunk
 comment:      interim (user: rcgill)
