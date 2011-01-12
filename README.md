@@ -1,6 +1,6 @@
 # bdParse - A Javascript parser, implemented in JavaScript
 
-bdParse is a set of AMD (http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) modules that tokenize and parse
+bdParse is a set of [AMD](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) modules that tokenize and parse
 javascript resources into an abstract syntax tree.
 
 ## Status
@@ -15,9 +15,7 @@ bdParse is free and open source software available under a BSD-style license.
 
 [The backdraft framwork](http://bdframework.org/index.html)
 
-[bdLoad](https://github.com/altoviso/bdLoad) (the backdraft loader)
-
-[bdBuild](https://github.com/altoviso/bdParse) (the backdraft building)
+[bdBuild](https://github.com/altoviso/bdBuild) (the backdraft building)
 
 
 
