@@ -156,7 +156,7 @@ loader.require(["bdParse", "traceDeps/trace"], function(bdParse, trace) {
 					if (indent.length) {
 						process.stdout.write(indent + module + "\n");
 					} else {
-						process.stdout.write("dependency tree for module: " + module + "\n");
+						process.stdout.write(module + ":\n");
 					}
 					seen[module]= visited[module]= 1;
 					modules[module] && modules[module].forEach(function(mid) {
