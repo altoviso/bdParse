@@ -109,6 +109,17 @@ for (var argv= process.argv, arg, i= 2, end= argv.length; i<end;) {
 	}
 }
 
+/*
+var noFindTest= [
+"../../lib/tokenize.js",
+"../../lib/types.js",
+"../../lib/asn.js",
+"../../lib/main.js",
+"../../lib/parse.js",
+"../../lib/dump.js"
+];
+*/
+
 loader.require(["bdParse", "traceDeps/trace"], function(bdParse, trace) {
 		// execute find <root> -name "*.js" -and -not -path "*/nls/*"
 		var 
@@ -138,6 +149,7 @@ loader.require(["bdParse", "traceDeps/trace"], function(bdParse, trace) {
 				pathLength= root.length + 1, 
 				modules= {};
 			bdParse.split(findResult).forEach(function(filename) {
+			//noFindTest.forEach(function(filename) {
 				if (filename.length) {
 					var text= require("fs").readFileSync(filename, "utf8");
 					if (text) {

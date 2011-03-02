@@ -3,7 +3,7 @@ repository:   /home/rcgill/fossils/bdParse.fossil
 local-root:   /usr/home/rcgill/git-mirrors/bdParse/work/
 project-code: d22b878a7e3d06fd46ea0c49598d791cfd7dffbf
 server-code:  b943405516af31403cc26bb9b6219a96d3d9f1f6
-checkout:     02f4c354cec37a2cb79baea2224e1e4a21348ad7 2011-02-14 06:53:13 UTC
-parent:       4cdc20bd05c11999286c7de83733a8b216dd88f4 2011-02-14 06:51:04 UTC
+checkout:     eccc58f26ed1612cb34bda9dd8b78cd743b4c12a 2011-03-02 10:14:38 UTC
+parent:       02f4c354cec37a2cb79baea2224e1e4a21348ad7 2011-02-14 06:53:13 UTC
 tags:         trunk
-comment:      improved dump output (user: rcgill)
+comment:      white space cleanup (user: rcgill)
